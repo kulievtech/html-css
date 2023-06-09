@@ -7,6 +7,9 @@
 body {
     font-family: Cormorant, serif;
 }
+
+/* navbar */
+
 .links,
 h1,
 .links li {
@@ -33,6 +36,8 @@ a.active {
     margin: 40px;
 }
 
+/* photo grid */
+
 .gallery {
     padding: 16px;
 }
@@ -55,8 +60,10 @@ a.active {
     font-weight: 300;
 }
 
+/* footer  */
+
 .about {
-    width: 40%;
+    width: 45%;
     min-width: 600px;
     margin: 100px 0 100px 200px;
 }
@@ -69,8 +76,19 @@ a.active {
 .about > p {
     margin: 40px 0;
     font-size: 30px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 8px;
 }
 
 .contact {
     margin: 100px 0;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.card img:hover {
+    opacity: 0.9;
 }
