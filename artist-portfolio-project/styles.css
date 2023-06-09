@@ -1,3 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Cormorant, serif;
+}
+
+/* navbar */
+
+.links,
+h1,
+.links li {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 300;
+    margin-right: 32px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    margin: 0 8px;
+}
+
+a.active {
+    border-bottom: 1px solid #000;
+}
+
+.navbar {
+    margin: 40px;
+}
+
+/* photo grid */
+
+.gallery {
+    padding: 16px;
+}
+
+.card {
+    width: 49.75%;
+    display: inline-block;
+    padding: 16px;
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h2 {
+    display: inline-block;
+    margin: 8px 0 16px 0;
+    font-weight: 300;
+}
+
+/* footer  */
+
+.about {
+    width: 45%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+
+.about h3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.about > p {
+    margin: 40px 0;
+    font-size: 30px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.contact {
+    margin: 100px 0;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.card img:hover {
+    opacity: 0.9;
 }
