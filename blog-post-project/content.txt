@@ -7,7 +7,7 @@ Typography is one of the most important elements of front end design and develop
 All About Typography
 
 Headlines, like this one, are great ways to quickly capture the
-reader's attention, to give them a sumary, intro, or other important
+reader's attention, to give them a summary, intro, or other important
 information in a web page. You can use
 text-transform: uppercase; to make a whole body of text
 uppercase using CSS if you really need to grab attention!
