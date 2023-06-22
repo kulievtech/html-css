@@ -111,6 +111,7 @@ h1 {
     background-color: rgb(250, 247, 255);
     text-align: center;
     padding: 32px;
+    box-sizing: border-box;
     width: 50%;
     text-transform: uppercase;
     margin: 16px 0;
@@ -266,4 +267,35 @@ h1 {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+    .card {
+        width: 100%;
+    }
+    .card-wrapper {
+        flex-wrap: wrap-reverse;
+    }
+    .sessions-card {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        padding: 0 0 16px 0;
+    }
+    h1 {
+        margin: 24px 0;
+    }
+    .container {
+        padding: 0 16px;
+    }
+    .sessions-card {
+        width: 100%;
+    }
+    .toggle-wrapper {
+        width: 90%;
+        justify-content: space-around;
+    }
 }
